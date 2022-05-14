@@ -1,0 +1,23 @@
+/* color title first #FFFFFF;
+color title(dark) #303030 
+color text on dark part #9DA4BD
+color text on light part #555555
+add color for buttons 
+#FF6C00
+color second on rark part rgba(157, 164, 189, 0.6)
+section online-record rgba(157, 164, 189, 0.4)*/
+
+:root {
+  --color-title-first: #ffffff;
+  --color-title-dark: #303030;
+  --text-dark-part: #9da4bd;
+  --text-light-part: #555555;
+  --add-color-buttons: #ff6c00;
+  --color-second-dark: rgba(157, 164, 189, 0.6);
+  --section-online-record: rgba(157, 164, 189, 0.4);
+}
+
+body {
+  font-family: "Open Sans", "Raleway", sans-serif;
+  margin: 0;
+}
