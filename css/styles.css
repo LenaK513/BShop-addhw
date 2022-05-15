@@ -17,7 +17,214 @@ section online-record rgba(157, 164, 189, 0.4)*/
   --section-online-record: rgba(157, 164, 189, 0.4);
 }
 
+/* *************General Section************ */
 body {
   font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0;
   margin: 0;
+}
+
+/* *****************HEADER ******************** */
+.main-nav,
+.add-nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav .list,
+.add-nav .list {
+  list-style-type: none;
+}
+.main-nav .link,
+.add-nav .link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--color-title-first);
+  background-color: rgb(170, 167, 167);
+  margin: 0;
+}
+
+.btn {
+  color: var(--color-title-first);
+  background-color: transparent;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: 1px solid var(--add-color-buttons);
+  border-radius: 25px;
+  padding: 12px 20.21px;
+  cursor: pointer;
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--add-color-buttons);
+}
+
+.add-nav .link:hover,
+.add-nav .link:focus {
+  color: var(--add-color-buttons);
+}
+
+.add-nav .btn:hover,
+.add-nav .btn:focus {
+  color: var(--color-title-first);
+}
+
+/* *************SECTION HERO******************* */
+.hero-brands {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-brands .link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--color-second-dark);
+
+  transform: rotate(-89.83deg);
+}
+.hero-brands .link:hover,
+.hero-brands .link:focus {
+  color: var(--add-color-buttons);
+}
+
+.hero {
+  background-color: rgb(112, 110, 110);
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+
+  color: var(--color-second-dark);
+}
+
+.hero-title {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  margin: 0;
+  color: var(--color-title-first);
+}
+
+.hero-info {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: var(--text-dark-part);
+}
+/* ************ SECTION ABOUT***************** */
+.about-gallery {
+  list-style-type: none;
+}
+
+.title .light {
+  color: var(--color-title-dark);
+}
+.name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  margin: 0;
+}
+.name.about {
+  color: var(--color-title-dark);
+}
+.about.info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+  margin: 0;
+
+  color: var(--text-light-part);
+}
+.about-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  margin: 0;
+
+  color: var(--text-light-part);
+}
+
+.btn.about {
+  color: var(--text-light-part);
+}
+/* **********SECTION PRICES****************** */
+.price {
+  background-color: rgb(68, 66, 66);
+}
+
+.name.prices {
+  color: var(--color-title-first);
+}
+
+.services {
+  margin: 0;
+}
+.services .item {
+  list-style-type: none;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--text-dark-part);
+}
+.service-list {
+  margin: 0;
+}
+/* *************ADVERT SECTION*************** */
+.advert-list {
+  margin: 0;
+}
+.advert-list .item {
+  list-style-type: none;
+}
+.quantity {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+
+  letter-spacing: 0.05em;
+
+  color: var(--color-title-dark);
+}
+.quantity-description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  color: var(--color-title-dark);
 }
