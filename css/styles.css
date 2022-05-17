@@ -263,3 +263,21 @@ body {
   list-style-type: none;
   margin: 0;
 }
+
+/* *************SECTION RECORDS*********************** */
+.connection {
+  background-color: #191c26;
+}
+
+.record-gap {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-title-first);
+
+  margin: 0;
+}
+/* ***************SECTION ADDRESS******************* */
