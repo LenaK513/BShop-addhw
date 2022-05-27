@@ -271,9 +271,11 @@ body {
   display: flex;
 }
 
-.price .title {
+.title-price {
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
   margin-bottom: 20px;
-  padding-right: 50px;
 }
 
 .prices {
@@ -285,7 +287,6 @@ body {
 
 .services {
   margin: 0 auto;
-
   flex-grow: 1;
   padding: 30px 40px;
 }
@@ -303,6 +304,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .services .item:last-child {
   margin-bottom: 0;
 }
@@ -322,21 +324,36 @@ body {
   display: flex;
 }
 .advert-list {
+  /* display: flex; */
   margin: 0;
+  padding: 0;
   flex-grow: 1;
 }
-.add-container {
+.add-advert {
   display: block;
+  flex-wrap: wrap;
   flex-grow: 1;
 }
 .advert-list .item {
+  display: block;
   list-style-type: none;
+  width: 170px;
+  height: 140px;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
 }
+
+.advert-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .quantity {
+  display: block;
   font-weight: 700;
   font-size: 42px;
   line-height: 1.36;
-
+  text-align: center;
   letter-spacing: 0.05em;
 
   color: var(--color-title-dark);
@@ -345,7 +362,9 @@ body {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
-
+  text-align: center;
+  padding: 0;
+  margin: 0;
   color: var(--color-title-dark);
 }
 
@@ -434,7 +453,7 @@ body {
 
 /* *************SECTION CONNECTION*********************** */
 
-.connection {
+.connection .container {
   padding-top: 130px;
   padding-bottom: 130px;
   background-color: #191c26;
@@ -457,28 +476,43 @@ body {
   margin: 0;
 }
 /* ***************SECTION ADDRESS******************* */
-.name prices .address-about {
+.address .container {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #191c26;
+}
+
+.address-about {
   font-style: normal;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--text-dark-part);
+  justify-content: flex-start;
+  margin-bottom: 70px;
 }
 
 .unit {
   margin: 0;
+  padding: 0;
 }
 
 .address-contacts {
+  color: var(--text-dark-part);
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 .address-contacts .link {
   text-decoration: none;
   color: var(--text-dark-part);
 }
 
-/* *****************FOOTER********************************* */
-.copy {
-  margin: 0;
+.open-hours {
+  justify-content: flex-start;
 }
+.record-gap {
+  margin-bottom: 20px;
+}
+
+/* *****************FOOTER********************************* */
