@@ -515,4 +515,8 @@ body {
   margin-bottom: 20px;
 }
 
+.connection-address .container {
+  display: flex;
+}
+
 /* *****************FOOTER********************************* */
