@@ -452,6 +452,9 @@ body {
 }
 
 /* *************SECTION CONNECTION*********************** */
+.conn-add .container {
+  display: flex;
+}
 
 .connection .container {
   padding-top: 130px;
@@ -513,10 +516,6 @@ body {
 }
 .record-gap {
   margin-bottom: 20px;
-}
-
-.connection-address .container {
-  display: flex;
 }
 
 /* *****************FOOTER********************************* */
