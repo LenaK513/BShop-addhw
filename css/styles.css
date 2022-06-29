@@ -301,20 +301,14 @@ body {
   margin-bottom: 44px;
 }
 
-.add-container {
-  background-image: linear-gradient(
-    180deg,
-    #171a24 0%,
-    rgba(23, 26, 36, 0.2) 100%,
-    180deg,
-    #171a24 0%,
-    rgba(23, 26, 36, 0.2) 100%
-  );
-}
 .services {
   margin: 0 auto;
   flex-grow: 1;
   padding: 30px 40px;
+  background-image: linear-gradient(
+    (180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 20%),
+    (180deg, #171a24 20%, rgba(23, 26, 36, 0.2) 100%)
+  );
 }
 
 .services .item {
