@@ -518,12 +518,16 @@ body {
   background-color: #191c26;
   padding-top: 130px;
   padding-bottom: 130px;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .connect {
   margin: 0;
   margin-bottom: 44px;
+}
+
+.prices--connection {
+  padding-left: 0;
 }
 
 .record-gap {
