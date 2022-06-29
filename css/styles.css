@@ -588,6 +588,7 @@ body {
 .footer .container {
   display: flex;
   padding: 54px 55px;
+  align-items: center;
 }
 
 .footer-part {
@@ -600,7 +601,8 @@ body {
   margin-right: 40px;
 }
 
-.copy {
+.copy,
+.list-snet {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -608,6 +610,10 @@ body {
   line-height: 1.36;
 
   letter-spacing: 0.2em;
-
+}
+.copy--color {
   color: var(--text-dark-part);
+}
+.list-snet--color {
+  color: var(--color-title-dark);
 }
