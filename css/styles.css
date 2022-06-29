@@ -599,3 +599,15 @@ body {
 .footer-part .list:not(:last-child) {
   margin-right: 40px;
 }
+
+.copy {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.2em;
+
+  color: var(--text-dark-part);
+}
