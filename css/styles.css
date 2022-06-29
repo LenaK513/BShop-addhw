@@ -301,19 +301,20 @@ body {
   margin-bottom: 44px;
 }
 
-.services {
-  margin: 0 auto;
-  flex-grow: 1;
-  padding: 30px 40px;
+.add-container {
   background-image: linear-gradient(
+    180deg,
+    #171a24 0%,
+    rgba(23, 26, 36, 0.2) 100%,
     180deg,
     #171a24 0%,
     rgba(23, 26, 36, 0.2) 100%
   );
 }
-
-.services:not(:last-child) {
-  margin-right: 5px;
+.services {
+  margin: 0 auto;
+  flex-grow: 1;
+  padding: 30px 40px;
 }
 
 .services .item {
