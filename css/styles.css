@@ -388,6 +388,7 @@ body {
   letter-spacing: 0.05em;
 
   color: var(--color-title-dark);
+  margin-bottom: 7px;
 }
 .quantity-description {
   font-weight: 600;
