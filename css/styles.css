@@ -311,6 +311,11 @@ body {
     rgba(23, 26, 36, 0.2) 100%
   );
 }
+
+.services:not(:last-child) {
+  margin-right: 5px;
+}
+
 .services .item {
   list-style-type: none;
 
