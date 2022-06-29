@@ -151,6 +151,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1280px;
 }
 
 .hero-brands .link {
@@ -269,6 +270,10 @@ body {
 .price {
   background-image: url(../img/img.png);
   background-color: rgb(17, 19, 25);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1280px;
 }
 
 .price .container {
